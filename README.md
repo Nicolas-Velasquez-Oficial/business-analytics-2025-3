@@ -13,7 +13,7 @@ Este curso ofrece una introducción práctica al análisis de datos orientado a 
 - `assignments/`: Talleres y tareas
 - `solutions/`: Soluciones (si aplica)
 - `utils/`: Funciones o scripts auxiliares
--  `sops/`: Funciones o scripts auxiliares
+-  `sops/`: Guias de descarga (R,Rsudio,VScode,Github)
 
 ## 📅 Herramientas y Lenguajes
 

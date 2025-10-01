@@ -38,7 +38,10 @@
 # ============================================================
 # 3. Regresión con dummy de estacionalidad
 # ============================================================
-# - Agregue Holliday_seasson al modelo:
+# - Cree una variable llamada Holliday_seasson 
+#en donde sea 1 para las semanas mas bajas de ventas de diciembre y 
+#enero en el año 2023, 2024 y 2025 e incluyalo al modelo:
+
 #   Ventas ~ Gasto_Publicidad + Holliday_seasson
 #
 # Preguntas:
@@ -60,8 +63,10 @@
 # ============================================================
 # 5. Cree su propio modelo
 # ============================================================
-# - Agregue al menos UNA variable nueva 
-#   (ejemplo: Flights_to_Nashville).
+# - Agregue al menos UNA variable nueva ,
+#   (ejemplo: Flights_to_Nashville, unemployment, cpi, etc...)
+# También pueden mirar las ventas y ver si algun pico o valle muy pronunciado cuadra con un holliday que no este incluido en la base de datos y
+# ustedes crearla y agregarla al modelo.
 # - Use como dependiente Log_Ventas.
 # - Estime el modelo y analice los resultados.
 #

@@ -6,8 +6,8 @@ set.seed(123) # reproducibilidad
 
 # Simular base con intercepto ≈ 82.916 y pendiente ≈ 0.102
 Casas_ejemplo1slides <- tibble(
-  SQFT = runif(300, 500, 4000),   # nunca metros cuadrados negativos
-  PRICE = 82.916 + 0.102 * SQFT + rnorm(300, 0, 50)) %>% # ruido pequeño) %>%
+  SQFT = runif(29, 500, 4000),   # nunca metros cuadrados negativos
+  PRICE = 82.916 + 0.102 * SQFT + rnorm(29, 0, 50)) %>% # ruido pequeño) %>%
   mutate(
     PRICE = pmax(PRICE, 0)  # evitar precios negativos
   )

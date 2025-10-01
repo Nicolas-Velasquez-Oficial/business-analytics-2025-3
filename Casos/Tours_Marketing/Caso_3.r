@@ -16,7 +16,7 @@
 # ============================================================
 # 1. Exploración inicial de los datos
 # ============================================================
-# - Importe la base de datos "Opry.csv"
+# - Importe la base de datos "Opry_data.csv"
 # - Revise estructura y primeras filas
 # - Obtenga un resumen estadístico de las variables clave:
 #   Ventas, Gasto_Publicidad y las demas que desee incorporar
@@ -38,6 +38,8 @@
 # ============================================================
 # 3. Regresión con dummy de estacionalidad
 # ============================================================
+#Usted como analista de datos sabe que en diciembre y enero las ventas son mas bajas debido a la estacionalidad del negocio.
+# Por lo tanto, para mejorar el modelo: 
 # - Cree una variable llamada Holliday_seasson 
 #en donde sea 1 para las semanas mas bajas de ventas de diciembre y 
 #enero en el año 2023, 2024 y 2025 e incluyalo al modelo:
